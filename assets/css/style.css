@@ -10,14 +10,15 @@ body {
 }
 
 nav ul {
-  padding: 5px;
+  padding: 20px;
   display: flex;
+  flex: 1 1 auto;
   align-items: center;
   justify-content: flex-end;
   /* justify-content: space-between; */
   min-width: 100px;
   left: 3%;
-  margin: 2;
+  margin: 5px;
 }
 
 h1 {
@@ -27,27 +28,47 @@ h1 {
 
 h2 {
   display: block;
-  text-align: left;
+  align-items: left;
+}
+
+h3 {
+  color: red;
 }
 
 p {
   font-family: initial;
 }
 
+.images-1 {
+  width: 40%;
+  height: 40%;
+}
+
+.images {
+  width: 25%;
+  height: 25%;
+}
+
 .portfolio-1 {
   display: flex;
   justify-content: flex-end;
+  align-items: right;
+  width: 150%;
 }
 
 .portfolio {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: right;
   width: 25%;
+  border-style: 5px solid black;
+  flex-wrap: wrap;
 }
 
 .Contact-Me {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and(max-width: 900px) {
