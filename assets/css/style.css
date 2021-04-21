@@ -67,10 +67,6 @@ p {
   border-right: 10px solid black;
 }
 
-.Big-Portfolio {
-  /* background-image: url("https://images.unsplash.com/photo-1618767438211-11ffdb8e1861?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
-}
-
 .My-Portfolo-Content {
   display: flex;
   justify-content: flex-end;
@@ -82,7 +78,7 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: right;
-  width: 150%;
+  /* width: 150%; */
 }
 
 .portfolio {
@@ -96,6 +92,7 @@ p {
 
 .portfolio-row {
   display: flex;
+  width: 100%;
 }
 
 .Contact-Me {
