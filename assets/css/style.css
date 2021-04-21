@@ -101,8 +101,14 @@ p {
   align-items: center;
 }
 
-@media screen and(max-width: 900px) {
+@media screen and (max-width: 992px) {
+  body {
+    flex-direction: column;
+  }
 }
 
-@media screen and(max-width: 700px) {
+@media screen and(max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
 }
