@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://cblock7.github.io/Night-Sky/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Bootstrap CSS Link -->
+    <link href="./NightSky Working Screenshot_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="./NightSky Working Screenshot_files/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="./NightSky Working Screenshot_files/style.css">
+    <title>Night Sky</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand navbar-light bg-light">
+        <a class="navbar-brand" href="https://cblock7.github.io/Night-Sky/#">Night Sky</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nightSkyNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://cblock7.github.io/Night-Sky/#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cblock7.github.io/Night-Sky/#">ISS Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://cblock7.github.io/Night-Sky/#">Astronauts in Space</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid d-flex flex-column text-center pt-4 pt-4 landing-zone">
+        <h1 id="mb-2 landing-header">Night Sky</h1>
+        <p id="page-description">
+          Find out where above the world the International Space Station is!
+          Check it out on our live map or enter your location and find out how
+          far you are from the station!
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Div for the leaflet liveMap of the ISS location -->
+      <div id="liveMap" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(105px, 55px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(161px, -106px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/0(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(417px, -106px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/1.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(161px, 150px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/1(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(417px, 150px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/0(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-95px, -106px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(673px, -106px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/1(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-95px, 150px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/1.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(673px, 150px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/0.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-351px, -106px, 0px); opacity: 1;"><img alt="" role="presentation" src="./NightSky Working Screenshot_files/1.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-351px, 150px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"><img src="./NightSky Working Screenshot_files/marker-shadow.png" class="leaflet-marker-shadow leaflet-zoom-animated" alt="" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(417px, -106px, 0px);"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-marker-pane"><img src="./NightSky Working Screenshot_files/ISS-Icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: 0px; margin-top: 0px; width: 50px; height: 50px; transform: translate3d(312px, 95px, 0px); z-index: 95;"><img src="./NightSky Working Screenshot_files/marker-icon.png" class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt="" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(417px, -106px, 0px); z-index: -106;"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(151px, 201px, 0px) scale(1);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="https://cblock7.github.io/Night-Sky/#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="https://cblock7.github.io/Night-Sky/#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="https://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div></div></div></div>
+
+      <div class="text-center mt-2">
+        <p>
+          Enter your address to see how far you are from being directly below
+          the International Space Station!
+        </p>
+        <p id="station-distance">Distance to ISS: 4117 miles!</p>
+      </div>
+
+      <form class="container-fluid d-flex mt-4 mb-4" id="submitForm">
+        <div class="form-group">
+          <label for="addressArea">Address:</label>
+          <input type="text" name="addressArea" id="addressArea">
+        </div>
+        <div class="form-group">
+          <label for="cityArea">City:</label>
+          <input type="text" name="cityArea" id="cityArea">
+        </div>
+        <div class="form-group">
+          <label for="stateArea">State:</label>
+          <input type="text" name="stateArea" id="stateArea">
+        </div>
+        <div class="form-group">
+          <label for="zipArea">Zip Code:</label>
+          <input type="text" name="zipArea" id="zipArea">
+        </div>
+        <button class="btn btn-primary" type="submit">Find the ISS</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="container-fluid d-flex justify-content-around foot-div">
+        <div class="d-flex more-resources">
+          <h3>More Resources:</h3>
+          <ul>
+            <div class="list-group d-flex flex-row justify-content-center footer-list">
+              <li class="footer-item">
+                <a class="footer-link" href="https://cblock7.github.io/Night-Sky/#">Astronauts in Space Station</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="https://www.nasa.gov/">NASA</a>
+              </li>
+              <li class="footer-item">
+                <a class="footer-link" href="https://www.issnationallab.org/">About the International Space Station</a>
+              </li>
+            </div>
+          </ul></div>
+        
+        <button class="btn btn-primary"><a href="https://aas.org/donate">Donate!</a></button>
+      </div>
+    </footer>
+
+    <!-- Bootstrap script source -->
+    <script src="./NightSky Working Screenshot_files/bootstrap.bundle.min.js.download" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- jQuery script src -->
+    <script src="./NightSky Working Screenshot_files/jquery.min.js.download" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <!-- Leaflet JS -->
+    <script src="./NightSky Working Screenshot_files/leaflet.js.download" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- Our custom script src -->
+    <script src="./NightSky Working Screenshot_files/script.js.download"></script>
+  
+
+</body></html>
