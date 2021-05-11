@@ -1,12 +1,12 @@
-# <Personal Webpage showcasing Work Portfolio>
+# <Javascript Password Generator>
 
 ## Description
 
-Built this project from scratch to get more familiar with HTML and Advanced CSS as well as learn how to upload my work to GitHub.
+Built this project with some starter code to get more familiar with HTML and Javascript as well as learn how to upload my work to GitHub.
 
-This was a coding assignment where we built our own webpage from scratch using HTML and Advanced CSS. The goal was to make this a portfolio/resume to showcase our projects to future employers.
+This was a coding assignment where we built our own Javascript extenstion using some starter code from HTML and Advanced CSS. The goal was to make a page that could create a random password based on inputs from the user.
 
-Learned a lot more about these html and css languages and how they work together.
+Learned a lot more about these HTML and Javascript and how they work together.
 
 ## Installation
 
@@ -14,9 +14,9 @@ No installation required
 
 ## Usage
 
-Visit github webpage: https://daneenright.github.io/Advanced-CSS-Portfolio/
+Visit github webpage: https://daneenright.github.io/Javacript-Password-Generator/
 
-Sample of Webpage:![Working Page](/images/Portfolio-Working-Page.png)
+Sample of Webpage:![Working Page](/images/passWordGeneratorWorkingPage.png)
 
 ## Credits
 
@@ -28,6 +28,7 @@ Google Chrome
 ## Collaborator
 
 Faran Navazi
+TJ Courey
 
 ## License
 
