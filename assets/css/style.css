@@ -93,6 +93,7 @@ p {
 .portfolio-row {
   display: flex;
   width: 100%;
+  padding: 10px;
 }
 
 .Contact-Me {
